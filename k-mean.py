@@ -86,9 +86,9 @@ def k_means(k,datapoints):
     
 #testing
 if __name__ == "__main__":
-  
-    datapoints = [(3,1),(22,6),(1,2),(10,1),(1,11),(10,10),(5,6),(17,7),(9,10),(1,13),(12,10),(13,4),(9,9)]
-
+  #we are giving the data points
+    datapoints = [(3,1),(22,6),(1,2),(10,1),(1,11),(10,10),(5,6),(17,7),(9,10),(1,13),(12,10),(13,4),(9,9),(3,17),(2,19)]
+#we ask the user to put value of k ,the number of cluster here we want 2 you can change if you want n number of clusters
     k = 2 #no of kluster
       
 kmeans(k,datapoints) 
