@@ -1,7 +1,7 @@
 import random
 import math
 
-#Euclidian Distance b/w 2 points
+#Euclidian Distance b/w two points
 def eucliDist(p0,p1):
     dist = 0.0
     for i in range(0,len(p0)):
